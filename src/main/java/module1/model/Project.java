@@ -12,5 +12,6 @@ public class Project {
 
     public Project(Project project) {
         this(project.getId(), project.getName());
+
     }
 }

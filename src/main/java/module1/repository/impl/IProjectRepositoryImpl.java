@@ -7,9 +7,10 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+
 @Repository
 public class IProjectRepositoryImpl implements IProjectRepository {
-    private List<Project> projects  = new ArrayList<>();
+    private List<Project> projects = new ArrayList<>();
 
     @Override
     public Optional<Project> findById(Long id) {
@@ -30,10 +31,9 @@ public class IProjectRepositoryImpl implements IProjectRepository {
         } else {
             projects.remove(project);
             projects.add(new Project(project));
+            return project;
         }
 
 
-        projects.add(project);
-        return project;
     }
 }
