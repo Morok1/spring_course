@@ -1,7 +1,9 @@
 package module3.repository.impl;
 
+import lombok.extern.java.Log;
 import module3.model.Project;
 import module3.repository.IProjectRepository;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -9,7 +11,15 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
+@Log
 public class IProjectRepositoryImpl implements IProjectRepository {
+
+    @Value("${project.suffix}")
+    private String suffix;
+
+    @Value("${project.prefix}")
+    private String prefix;
+
     private List<Project> projects = new ArrayList<>();
 
     @Override
@@ -25,6 +35,7 @@ public class IProjectRepositoryImpl implements IProjectRepository {
                 .findFirst().orElse(null);
 
         if (existingProject == null) {
+            logFunc();
             projects.add(project);
 
             return project;
@@ -36,4 +47,9 @@ public class IProjectRepositoryImpl implements IProjectRepository {
 
 
     }
+
+    private void logFunc(){
+        log.info(prefix + suffix);
+    }
+
 }
