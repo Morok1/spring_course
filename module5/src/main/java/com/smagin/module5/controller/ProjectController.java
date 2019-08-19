@@ -1,6 +1,6 @@
 package com.smagin.module5.controller;
 
-import com.smagin.module5.model.Project;
+import com.smagin.module5.dto.ProjectDto;
 import com.smagin.module5.service.ProjectService;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,7 @@ public class ProjectController {
 
 
     @GetMapping("/projects")
-    public List<Project> getProjects(){
+    public List<ProjectDto> getProjects(){
         return service.getAllProjects();
     }
 
