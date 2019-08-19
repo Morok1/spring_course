@@ -1,7 +1,7 @@
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module1/repository/impl/IProjectRepositoryImpl.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module1/service/IProjectService.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/autowired/IProjectServiceImpl.java
-/Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module3/repository/impl/IProjectRepositoryImpl.java
+/Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module3/repository/impl/IProjectRepositoryImplPProd.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module3/repository/IProjectRepository.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/AppConfig.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module3/service/impl/IProjectServiceImpl.java
@@ -11,6 +11,7 @@
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module1/service/impl/IProjectServiceImpl.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/BeanB.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/model/BeanA.java
+/Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module3/repository/impl/IProjectRepositoryImplDev.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/autowired/IProjectRepositoryImplWireField.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/example/B.java
 /Users/evgenij/Documents/Проекты/Мои/projects/spring_course/src/main/java/module2/repository/impl/IProjectRepositoryImpl.java

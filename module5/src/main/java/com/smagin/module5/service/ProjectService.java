@@ -19,11 +19,10 @@ public class ProjectService {
         this.repository = repository;
     }
 
-    public List<ProjectDto> getAllProjects(){
-        return repository
-                .findAllByOrOrderByNameDesc()
+    public List<ProjectDto> getAllProjects() {
+        return repository.findAll()
                 .stream()
-                .map(s->converter.convert(s))
+                .map(s -> converter.convert(s))
                 .collect(Collectors.toList());
     }
 }
