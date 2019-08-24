@@ -1,5 +1,6 @@
 package com.smagin.module5.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -9,6 +10,7 @@ import java.time.LocalDate;
 
 @Entity(name = "PROJECT")
 @Data
+@AllArgsConstructor
 public class Project {
     @Id
     @Column(name="ID")

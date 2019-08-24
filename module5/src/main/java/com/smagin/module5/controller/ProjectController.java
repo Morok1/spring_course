@@ -12,15 +12,11 @@ import java.util.List;
 @RestController
 @Log
 public class ProjectController {
-
     @Autowired
     private ProjectService service;
-
 
     @GetMapping("/projects")
     public List<ProjectDto> getProjects(){
         return service.getAllProjects();
     }
-
-
 }
