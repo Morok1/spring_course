@@ -9,6 +9,7 @@ public class TransferServiceImpl implements TransferService {
 
     @Override
     public void transfer(int number1, int number2) {
-        accountRepository.transfer();
+        accountRepository.transfer(number1, number2);
+
     }
 }

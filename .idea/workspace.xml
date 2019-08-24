@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2586b9cd-5f91-4b7e-a5c9-70b74fb76312" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/introduction/introduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/introduction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/introduction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepositoryFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/JdbcRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,24 +81,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IProjectRepositoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module5/src/test/java/integration/IProjectRepositoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,18 +102,13 @@
       <file leaf-file-name="TransferService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -183,11 +153,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountRepository.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccountRepository.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="45">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JdbcRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/JdbcRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#377#378#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,10 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/resources/courseplan.txt" />
-        <option value="$PROJECT_DIR$/src/main/resources/courseplan.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/2module.md" />
         <option value="$PROJECT_DIR$/src/main/java/module2/B.java" />
         <option value="$PROJECT_DIR$/src/main/java/module2/A.java" />
         <option value="$PROJECT_DIR$/src/main/java/module2/repository/impl/IProjectRepositoryImpl.java" />
@@ -269,6 +259,10 @@
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/Configuration.java" />
         <option value="$PROJECT_DIR$/patterns/introduction/pom.xml" />
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/JdbcRepository.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" />
       </list>
     </option>
   </component>
@@ -356,6 +350,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="introduction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_course" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -476,12 +481,12 @@
       <workItem from="1566201182311" duration="6024000" />
       <workItem from="1566238169181" duration="541000" />
       <workItem from="1566489998898" duration="10000" />
-      <workItem from="1566676744764" duration="1863000" />
+      <workItem from="1566676744764" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21501000" />
+    <option name="totallyTimeSpent" value="21889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -509,8 +514,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3369697" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31151515" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31151515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -545,20 +550,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/example/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/example/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module2/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -833,29 +824,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepositoryFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,6 +858,40 @@
             <element signature="e#640#641#0" expanded="true" />
             <element signature="e#686#687#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/JdbcRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
