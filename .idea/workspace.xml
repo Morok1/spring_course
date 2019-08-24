@@ -2,26 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2586b9cd-5f91-4b7e-a5c9-70b74fb76312" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Webflow_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course_plan.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module5/src/test/java/integration/IProjectRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/introduction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/model/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/introduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/introduction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepositoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/patterns.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
     <ignored path="$PROJECT_DIR$/module5/target/" />
+    <ignored path="$PROJECT_DIR$/patterns/introduction/target/" />
+    <ignored path="$PROJECT_DIR$/patterns/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,30 +88,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/model/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/controller/ProjectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="IProjectRepositoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module5/src/test/java/integration/IProjectRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -143,15 +117,20 @@
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java">
+      <file leaf-file-name="TransferService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+            <state relative-caret-position="100">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
               </folding>
@@ -159,11 +138,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountRepositoryFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java">
+      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepositoryFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepositoryFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -178,7 +184,7 @@
         </entry>
       </file>
       <file leaf-file-name="AccountRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepository.java">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
@@ -212,9 +218,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/module1/model/Project.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module1/repository/impl/IProjectRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module1/service/impl/IProjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/resources/courseplan.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/courseplan.md" />
@@ -263,6 +266,9 @@
         <option value="$PROJECT_DIR$/course_plan.txt" />
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java" />
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/Configuration.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/pom.xml" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java" />
       </list>
     </option>
   </component>
@@ -470,16 +476,15 @@
       <workItem from="1566201182311" duration="6024000" />
       <workItem from="1566238169181" duration="541000" />
       <workItem from="1566489998898" duration="10000" />
-      <workItem from="1566676744764" duration="832000" />
+      <workItem from="1566676744764" duration="1863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20470000" />
+    <option name="totallyTimeSpent" value="21501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -540,12 +545,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/service/IProjectService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module2/example/A.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -827,16 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course_plan.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -844,20 +833,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AccountRepositoryFactory.java">
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/TransferService.java">
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepositoryFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
           </folding>
         </state>
       </provider>

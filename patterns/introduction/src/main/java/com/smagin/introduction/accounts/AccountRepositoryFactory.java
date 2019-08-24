@@ -1,4 +1,4 @@
-package com.smagin.introduction;
+package com.smagin.introduction.accounts;
 
 public class AccountRepositoryFactory {
     public static AccountRepository getInstance(String type) {
