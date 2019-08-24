@@ -1,12 +1,6 @@
 package com.smagin.introduction.accounts;
 
-import com.smagin.introduction.accounts.AccountRepository;
-import com.smagin.introduction.accounts.AccountRepositoryFactory;
+public interface TransferService {
+    void transfer(int number1, int number2);
 
-public class TransferService {
-    private AccountRepository accountRepository;
-
-    public TransferService() {
-        this.accountRepository = AccountRepositoryFactory.getInstance("postgres");
-    }
 }
