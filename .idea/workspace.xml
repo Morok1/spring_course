@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2586b9cd-5f91-4b7e-a5c9-70b74fb76312" name="Default" comment="" />
+    <list default="true" id="2586b9cd-5f91-4b7e-a5c9-70b74fb76312" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/aspects/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/configuration/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/configuration/AppConfig.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/test/target/" />
@@ -77,19 +82,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="131">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -104,18 +100,46 @@
         </entry>
       </file>
       <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/configuration/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
                 <element signature="e#686#687#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoggingAspect.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/aspects/LoggingAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransferAccountMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferAccountMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,15 +163,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course_plan.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course_plan.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AccountRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,7 +181,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TransferServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -205,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/module2/B.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module2/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module2/repository/impl/IProjectRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/module2/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/module2/PersistenceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/module2/BeanC.java" />
@@ -256,6 +268,9 @@
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferService.java" />
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/AccountRepository.java" />
         <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferAccountMain.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/configuration/AppConfig.java" />
+        <option value="$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/aspects/LoggingAspect.java" />
       </list>
     </option>
   </component>
@@ -282,9 +297,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-48" />
+    <option name="y" value="40" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="372" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -355,6 +372,28 @@
               <item name="introduction" type="462c0819:PsiDirectoryNode" />
               <item name="accounts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_course" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="aspects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_course" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="introduction" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -405,7 +444,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Module5Application">
+  <component name="RunManager" selected="Application.TransferAccountMain">
+    <configuration name="TransferAccountMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.smagin.introduction.accounts.TransferAccountMain" />
+      <module name="introduction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.smagin.introduction.accounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -458,7 +508,13 @@
     <list>
       <item itemvalue="Spring Boot.TestApplication" />
       <item itemvalue="Spring Boot.Module5Application" />
+      <item itemvalue="Application.TransferAccountMain" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TransferAccountMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -474,15 +530,16 @@
       <workItem from="1566201182311" duration="6024000" />
       <workItem from="1566238169181" duration="541000" />
       <workItem from="1566489998898" duration="10000" />
-      <workItem from="1566676744764" duration="2601000" />
+      <workItem from="1566676744764" duration="3437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22239000" />
+    <option name="totallyTimeSpent" value="23075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-48" y="40" width="1440" height="372" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -507,8 +564,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3369697" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31151515" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3090909" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -543,20 +600,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/PersistenceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module2/model/BeanA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -824,33 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -882,6 +902,53 @@
           <folding>
             <element signature="e#157#158#0" expanded="true" />
             <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/configuration/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/aspects/LoggingAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferAccountMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

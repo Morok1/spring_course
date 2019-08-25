@@ -1,9 +1,6 @@
 package com.smagin.introduction.configuration;
 
-import com.smagin.introduction.accounts.AccountRepository;
-import com.smagin.introduction.accounts.TransferRepository;
-import com.smagin.introduction.accounts.TransferService;
-import com.smagin.introduction.accounts.TransferServiceImpl;
+import com.smagin.introduction.accounts.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,8 +13,7 @@ public class AppConfig {
 
     @Bean
     public AccountRepository accountRepository(){
-        return new AccountRepositoryImpl
-                ();
+        return new JdbcRepository();
     }
 
     @Bean

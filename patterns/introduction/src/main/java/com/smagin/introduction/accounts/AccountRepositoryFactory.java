@@ -4,11 +4,11 @@ public class AccountRepositoryFactory {
     public static AccountRepository getInstance(String type) {
         switch (type){
             case "postgres":
-                return new AccountRepository();
+                return new JdbcRepository();
             case "MySQL":
-                return new AccountRepository();
+                return new JdbcRepository();
             default:
-                return new AccountRepository();
+                return new JdbcRepository();
         }
 
     }
