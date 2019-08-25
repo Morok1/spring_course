@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2586b9cd-5f91-4b7e-a5c9-70b74fb76312" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/FactoryPatternMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AccountFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/BankFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/model/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/singleton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/AccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/api/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/api/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/model/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/model/CurrentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/model/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/model/SavingAccount.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -84,24 +85,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/api/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CurrentAccount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/model/CurrentAccount.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,54 +115,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactoryPatternMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactoryPatternMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/FactoryPatternMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/aspects/AppConfig.java">
+      <file leaf-file-name="AbstractFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AbstractFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/pom.xml">
+      <file leaf-file-name="BankFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/BankFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="75">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#371#372#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransferServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/patterns/introduction/src/main/java/com/smagin/introduction/accounts/TransferServiceImpl.java">
+      <file leaf-file-name="FactoryProducer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/FactoryProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/singleton/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AccountFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bank.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/model/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -210,13 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/module3/repository/impl/IProjectRepositoryImplDev.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module3/repository/impl/IProjectRepositoryImplPProde.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module3/repository/impl/IProjectRepositoryImplPProd.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/smagin/test/Controller.java" />
-        <option value="$PROJECT_DIR$/test/src/main/java/com/smagin/test/actuator.java" />
-        <option value="$PROJECT_DIR$/test/pom.xml" />
         <option value="$PROJECT_DIR$/test/src/main/java/com/smagin/test/conditional/PostgresConfiguration.java" />
         <option value="$PROJECT_DIR$/test/src/main/resources/info.txt" />
         <option value="$PROJECT_DIR$/module5/src/main/java/com/smagin/module5/Project.java" />
@@ -261,6 +261,13 @@
         <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/model/SavingAccount.java" />
         <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/AccountFactory.java" />
         <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/FactoryPatternMain.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/Bank.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/model/Bank.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AbstractFactory.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AccountFactory.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/BankFactory.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/FactoryProducer.java" />
+        <option value="$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/singleton/Singleton.java" />
       </list>
     </option>
   </component>
@@ -291,7 +298,7 @@
     <option name="x" value="-48" />
     <option name="y" value="40" />
     <option name="width" value="1440" />
-    <option name="height" value="426" />
+    <option name="height" value="319" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -351,17 +358,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gof" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring_course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_course" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="2GoFAndSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gof" type="462c0819:PsiDirectoryNode" />
-              <item name="accountFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -389,6 +385,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.smagin.gof.abtractfactroy" />
       <recent name="com.smagin.introduction" />
       <recent name="module2" />
     </key>
@@ -498,15 +495,15 @@
       <workItem from="1566201182311" duration="6024000" />
       <workItem from="1566238169181" duration="541000" />
       <workItem from="1566489998898" duration="10000" />
-      <workItem from="1566676744764" duration="8618000" />
+      <workItem from="1566676744764" duration="11674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28256000" />
+    <option name="totallyTimeSpent" value="31312000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-48" y="40" width="1440" height="426" extended-state="0" />
+    <frame x="-48" y="40" width="1440" height="319" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Key Promoter X" order="3" weight="0.3297568" />
@@ -533,7 +530,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33454546" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3069909" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45192307" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info anchor="bottom" id="Run with VisualVM" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" />
@@ -568,44 +565,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/module2/repository/impl/IProjectRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module3/repository/IProjectRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module3/service/IProjectService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module3/repository/impl/IProjectRepositoryImplDev.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module3/repository/impl/IProjectRepositoryImplPProd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module3/service/impl/IProjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -926,8 +885,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/accountFactory/FactoryPatternMain.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/model/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AbstractFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/AccountFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/BankFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/abtractfactroy/FactoryProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patterns/2GoFAndSpring/src/main/java/com/smagin/gof/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
         </state>
       </provider>
     </entry>
