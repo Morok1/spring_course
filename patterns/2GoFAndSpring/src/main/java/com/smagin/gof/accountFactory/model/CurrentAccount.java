@@ -1,6 +1,6 @@
-package com.smagin.gof.model;
+package com.smagin.gof.accountFactory.model;
 
-import com.smagin.gof.api.Account;
+import com.smagin.gof.accountFactory.api.Account;
 
 public class CurrentAccount implements Account {
     @Override
